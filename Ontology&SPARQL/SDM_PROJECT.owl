@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7">
+        <rdfs:comment>Renin secretion into blood stream</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Signal_release"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cell-cell_signaling"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part_2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part_2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Renin_secretion_into_blood_stream"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_response_to_blood_flow"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part_3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part_3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_response_to_blood_flow"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Regulation_of_systemic_arterial_blood"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part_4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part_4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_system_process__involve_in"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_4"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part_5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#is_part_5">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_blood_pressure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#blood_circulation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Protein_secretion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Protein_secretion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Renin_secretion_into_blood_stream"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Regulation_of_systemic_arterial_blood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Regulation_of_systemic_arterial_blood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_response_to_blood_flow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Renin_secretion_into_blood_stream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Renin_secretion_into_blood_stream"/>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Signal_release -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Signal_release">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Renin_secretion_into_blood_stream"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#biolgical_process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#biolgical_process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#biological_regulation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_process"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#localization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#multicelluar_organismal_process"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#signaling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#biological_regulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#biological_regulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_biological_guality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#blood_circulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#blood_circulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_blood_pressure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cell-cell_signaling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cell-cell_signaling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Signal_release"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cell_communcation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cell_communcation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cell-cell_signaling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_localization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_localization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_macromolecule_localization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_macromolecule_localization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_macromolecule_localization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_localization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cell_communcation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_localization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#export_from_the_cell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#circulatory_system_process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#circulatory_system_process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#blood_circulation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#endocrine_process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#endocrine_process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_localizatiopn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_localizatiopn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_protein_localization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_protein_localization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_protein_localization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_protein_localization_to"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_protein_localization_to -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_protein_localization_to">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Protein_secretion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#export_from_the_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#export_from_the_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#secretion_by_cell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#localization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#localization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_localization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_localizatiopn"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#macromolecule_localization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#macromolecule_localization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#macromolecule_localization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cellular_macromolecule_localization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#multicelluar_organismal_process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#multicelluar_organismal_process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#system_process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#nitrogen_compound_transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#nitrogen_compound_transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#organic_substance_transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#organic_substance_transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_localization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_localization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_protein_localization"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_localization_to_etracellular"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_localization_to_etracellular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_localization_to_etracellular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#establishment_of_protein_localization_to"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#protein_transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Protein_secretion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_biological_guality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_biological_guality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_blood_pressure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_blood_pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_blood_pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Regulation_of_systemic_arterial_blood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#regulation_of_systemic_arterial_blood_3"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_system_process__involve_in"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_response_to_blood_flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_response_to_blood_flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Renin_secretion_into_blood_stream"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_system_process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_system_process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_system_process__involve_in"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_system_process__involve_in -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_system_process__involve_in">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_response_to_blood_flow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#secretion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#secretion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#secretion_by_cell"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#secretion_by_cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#secretion_by_cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Protein_secretion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#Signal_release"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#signaling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#signaling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#cell-cell_signaling"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#system_process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#system_process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#endocrine_process"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#renal_system_process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#export_from_the_cell"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#nitrogen_compound_transport"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/microsoft/ontologies/2022/11/untitled-ontology-7#organic_substance_transport"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
